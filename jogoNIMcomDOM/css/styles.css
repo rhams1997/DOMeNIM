@@ -1,0 +1,136 @@
+a{
+    color : #0000FF
+}
+
+a:link{
+    color:#0000FF
+}
+
+a:hover{
+    color: #339900
+}
+
+a:active{
+    color: #669966
+}
+
+a.green{
+    text-decoration: none;
+    color: #339900
+}
+
+a.green:link{
+    text-decoration: none; 
+    color: #339900;
+}
+
+a.green:hover{
+    text-decoration: none;
+    color:#D88100;
+}
+
+a.orange{
+    text-decoration: none;
+    color:FF9900;
+}
+
+a.orange:link{
+    text-decoration: none;
+    color:FF9900;
+}
+
+a.orange:hover{
+    text-decoration: none;
+    color: #6DC023;
+}
+
+a.orange2{
+    text-decoration: none;
+    color:D9D914;
+}
+
+a.orange2:link{
+    text-decoration: none;
+    color:D9D914;
+}
+
+a.orange2:hover{
+    text-decoration: none;
+    color:#666666;
+}
+
+a.white{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+a.white:link{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+a.white:hover{
+    text-decoration: none;
+    color:#666666;
+}
+
+a.test{
+    text-decoration:underline;
+    color:#FFFFFF;
+}
+
+a.test:link{
+    text-decoration:underline;
+    color:#FFFFFF;
+}
+
+a.test:hover{
+    text-decoration:none;
+    color:#00FF00;
+}
+
+H1.type{
+    font-size:100%;
+    font-style: normal;
+    line-height: normal;
+    display: inline;
+    font-weight: normal;
+}
+
+INPUT.label{
+    height: 16px;
+    background-color: #FFFFCC;
+    border: 1px solid #996600;
+    color:#000000;
+    font-size: 10px;
+    line-height: normal;
+    font-family: Verdana,Arial, Helvetica, Sans-serif;
+    font-style: normal;
+}
+
+INPUT.Button{
+    height: 16px;
+    background-color: #FFCC00;
+    border: 1px outset #996600;
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    font-family: Verdana,Arial, Helvetica, Sans-serif;
+    font-style: normal;
+}
+
+INPUT.Button2{
+    height: 16px;
+    background-color: #FF0000;
+    border: 1px outset #996600;
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    font-family: Verdana,Arial, Helvetica, Sans-serif;
+    font-style: normal;
+}
+
+
+
+
+
