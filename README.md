@@ -1,0 +1,2 @@
+# DOMeNIM
+jogo NIM
