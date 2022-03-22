@@ -4,9 +4,9 @@ var z,sp,next_to_that
       a = new int_array(4)
       image=new Array()
       image[1]=new Image()
-      image[1].src="empty1.gif"
+      image[1].src="images\matcho1.gif"
       image[2]=new Image()
-      image[2].src="matcho1.gif"
+      image[2].src="images\matcho1.gif"
 
       function one_way(row) {
         a[row]--
