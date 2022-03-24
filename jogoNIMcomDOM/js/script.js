@@ -2,6 +2,14 @@
 
 var z,sp,next_to_that
 
+a = new int_array(4)
+image=new Array()
+
+image[1]=new Image()
+image[1].src="empty1.gif"
+image[2]=new Image()
+image[2].src="matcho1.gif"
+
 
 function one_way(row) {
   a[row]--
@@ -82,7 +90,7 @@ function int_array(length) { this.length=length }
 function new_game() {
   a[1]=1;a[2]=3;a[3]=5;a[4]=7
   next_to_that=6
-  for (var i=0; i<=15; i++) document.images[i].src=image[2].src
+  for (var i=0; i<=15; i++) document.images[i].src=images[2].src
   document.distribution.value="  "
 }
 
