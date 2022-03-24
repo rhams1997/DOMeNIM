@@ -1,11 +1,14 @@
 <html>
 <head>
 <title>Jogue NIM</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/script.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <META name="Description" content="Jogue NIM">
+  <link rel="stylesheet" href="js/script.js" media="screen">
+  <script src="js/script.js"></script>
 
-<SCRIPT LANGUAGE="JavaScript" type="e42e2f6d8dfdde5897887a0b-text/javascript">
-
+  
 </script>
 <script language="JavaScript" type="e42e2f6d8dfdde5897887a0b-text/javascript">
 
@@ -13,16 +16,21 @@
 
 </head>
 
-<body>
-  <form>
+<body class="label">
+  <p>
+  <div class="conteiner">
+
+  
+  <form class="white" class="green" class="label">
     <table cellpadding="1" cellspacing="1" id="jogo nim"></table>
 
-    <div align="center" id="linha 1">
+    <div align="center" ellpadding="1" cellspacing="1" class="linha1" id="linha 1">
         <tr valing="top">
         <td colspan="3"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td colspan="3"></td>
-        <td width="59" valing="middle"><input name="button" type="button" class="buton" value="Linha 1"></td>
+        
+        <td width="59" valign="middle"><input name="button" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(1)" value="Row 1" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
         </tr> 
     </div>
 
@@ -34,7 +42,8 @@
           <td width="32"><img SRC="images\matcho1.gif"></td>
           <td width="32"><img SRC="images\matcho1.gif"></td>
           <td colspan="2"></td>
-          <td width="59" valing="middle"><input nome="button2" type="button" class="button" value="linha 2"></td>
+          <td width="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(2)" value="Row 2" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+         
         </tr>
      
     </div>
@@ -47,7 +56,8 @@
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"></td>
-        <td width="59" valign="middle"><input name="button2" type="button" class="button"  value="Linha 3">
+        <td width="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(3)" value="Row 3" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        
         </td>
         </tr>
 
@@ -62,38 +72,24 @@
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
-        <td width="59" valign="middle"><input name="button2" type="button" class="button"  value="Linha 4">
+        <td WIDTH="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(4)" value="Row 4" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        
         </td>
       </tr>
     </div>
 
     <div align="center">
       <tr   valign="middle">
-        <td height="70" colspan="7"><input name="button2" type="button" class="button" value="Novo jogo">
+        <td height="70" colspan="7"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; new_game()" value="New game" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
         &nbsp;
-        <input  name="button2" type="button" class="button" value="Limpar tela">
-        </td>
-        <td  height="70"><input name="button2" type="button" class="button2"  value="Contra o PC">
+        <input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; javascript:window.close()" value="Close window" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        
+        <td height="70"><input name="button2" type="button" class="button2" onClick="if (!window.__cfRLUnblockHandlers) return false; computer_draught()" value="PC move" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
         </td>
       </tr>
 
     </div>
-
-<p></p>
-
-
-
-
-
-
+  </p>
 </table>
 </form>
-
-
-</td>
-</tr>
-
-
-</table>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e42e2f6d8dfdde5897887a0b-|49" defer=""></script></body>
 </html>
