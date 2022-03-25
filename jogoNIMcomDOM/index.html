@@ -13,32 +13,26 @@
 </head>
 
 <body onLoad="new_game()" >
-  <script src="js/script.js"></script>
-  <div class="conteiner">
+  <div class="container">
     <table>
-
     <div ellpadding="1" cellspacing="1" class="linha1" id="linha 1">
-        <tr valing="top">
+      <tr valing="top">
         <td colspan="3"></td>
         <td width="32"><img SRC="matcho1.gif"></td>
         <td colspan="3"></td>
-        
-        <td width="59" valign="middle"><button name="button" type="button" class="button"  value="linha 1" onclick="player_draught(1)">linha 1</button>
-          
-        </tr> 
+        <td width="59" valign="middle"><button id="button1" type="button" class="button"  value="linha 1" onclick="player_draught(1)">linha 1</button></td>
+      </tr> 
     </div>
 
     <div cellpadding="1" cellspacing="1"  id="linha 2">
-      
-        <tr  valing="top">
-          <td colspan="2"></td>
-          <td width="32"><img SRC="matcho1.gif"></td>
-          <td width="32"><img SRC="matcho1.gif"></td>
-          <td width="32"><img SRC="matcho1.gif"></td>
-          <td colspan="2"></td>
-          <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 2" onclick="player_draught(2)">linha 2</button>
-         
-        </tr>
+      <tr  valing="top">
+        <td colspan="2"></td>
+        <td width="32"><img SRC="matcho1.gif"></td>
+        <td width="32"><img SRC="matcho1.gif"></td>
+        <td width="32"><img SRC="matcho1.gif"></td>
+        <td colspan="2"></td>
+        <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 2" onclick="player_draught(2)">linha 2</button></td>
+      </tr>
     </div>
 
     <div cellpadding="1" cellspacing="1" id="linha 3">
@@ -50,11 +44,8 @@
         <td width="32"><img SRC="matcho1.gif"></td>
         <td width="32"><img SRC="matcho1.gif"></td>
         <td width="32"></td>
-        <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 3" onclick="player_draught(3)">linha 3</button>
-        
-        </td>
-        </tr>
-
+        <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 3" onclick="player_draught(3)">linha 3</button></td>
+      </tr>
     </div>
 
     <div cellpadding="1" cellspacing="1" id="linha 4">
@@ -66,23 +57,21 @@
         <td width="32"><img SRC="matcho1.gif"></td>
         <td width="32"><img SRC="matcho1.gif"></td>
         <td width="32"><img SRC="matcho1.gif"></td>
-        <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 4" onclick="player_draught(4)">linha 4</button>
-        
-        </td>
+        <td width="59" valign="middle"><button name="button2" type="button" class="button" value="linha 4" onclick="player_draught(4)">linha 4</button></td>
       </tr>
     </div>
 
     <div>
-      <tr   valign="middle">
-        <td height="70" colspan="7"><button name="button2" type="button" class="button" value="Iniciar" onclick="new_game()">Iniciar</button>
+      <tr valign="middle">
+        <td height="40" colspan="7"><button name="button2" type="button" class="button" value="Iniciar" onclick="new_game()">Iniciar</button>
         &nbsp;
-        <button name="button2" type="button" class="button" value="Fechar" onclick="window.close()">Fechar</button>
-        
-        <td height="70"><button name="button2" type="button" class="button2" value="Vs PC" onclick=" computer_draught()">Vs PC</button>
+        <button name="button2" type="button" class="button" value="Fechar" onclick="window.close()">Fechar</button></td>      
+        <td height="40" ><button name="button2" type="button" class="button" value="Vs PC" onclick=" computer_draught()">Vs PC</button>
         </td>
       </tr>
    </div>
   </table>
   </div>
+  <script src="js/script.js"></script>
 </body>
 </html>
