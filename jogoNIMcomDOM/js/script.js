@@ -1,5 +1,8 @@
 
 
+
+document.getElementById("button");
+
 var z,sp,next_to_that
 
 a = new int_array(4)
@@ -13,7 +16,7 @@ image[2].src="matcho1.gif"
 
 function one_way(row) {
   a[row]--
-  document.images[(row-1)*(row-1)+a[row]].src=image[1].src
+  document.getElementById("linha 1").images[(row-1)*(row-1)+a[row]].src=image[1].src
 }
 
 function player_draught(row) {

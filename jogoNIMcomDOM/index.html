@@ -12,25 +12,22 @@
 
 </head>
 
-<body class="label">
+<body>
   <p>
   <div class="conteiner">
+    <table>
 
-  
-  <form class="white" class="green" class="label">
-    <table cellpadding="1" cellspacing="1" id="jogo nim"></table>
-
-    <div align="center" ellpadding="1" cellspacing="1" class="linha1" id="linha 1">
+    <div ellpadding="1" cellspacing="1" class="linha1" id="linha 1">
         <tr valing="top">
         <td colspan="3"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td colspan="3"></td>
         
-        <td width="59" valign="middle"><input name="button" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(1)" value="Row 1" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <td width="59" valign="middle"><input name="button" type="button" class="button"  value="linha 1" onclick="player_draught(1)">
         </tr> 
     </div>
 
-    <div align="center" cellpadding="1" cellspacing="1"  id="linha 2">
+    <div cellpadding="1" cellspacing="1"  id="linha 2">
       
         <tr  valing="top">
           <td colspan="2"></td>
@@ -38,13 +35,13 @@
           <td width="32"><img SRC="images\matcho1.gif"></td>
           <td width="32"><img SRC="images\matcho1.gif"></td>
           <td colspan="2"></td>
-          <td width="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(2)" value="Row 2" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+          <td width="59" valign="middle"><input name="button2" type="button" class="button" value="linha 2" onclick=" player_draught(2)">
          
         </tr>
-     
     </div>
-    <div align="center"  cellpadding="1" cellspacing="1" id="linha 3">
-      <tr  align="center" valign="top">
+
+    <div cellpadding="1" cellspacing="1" id="linha 3">
+      <tr valign="top">
         <td width="32"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
@@ -52,15 +49,15 @@
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"></td>
-        <td width="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers)return false; player_draught(3)" value="Row 3" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <td width="59" valign="middle"><input name="button2" type="button" class="button" value="linha 3" onclick="player_draught(3)">
         
         </td>
         </tr>
 
     </div>
 
-    <div align="center" cellpadding="1" cellspacing="1" id="linha 4">
-      <tr  align="center" valign="top">
+    <div cellpadding="1" cellspacing="1" id="linha 4">
+      <tr valign="top">
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
@@ -68,24 +65,24 @@
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
         <td width="32"><img SRC="images\matcho1.gif"></td>
-        <td WIDTH="59" valign="middle"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; player_draught(4)" value="Row 4" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <td width="59" valign="middle"><input name="button2" type="button" class="button" value="linha 4" onclick="player_draught(4)">
         
         </td>
       </tr>
     </div>
 
-    <div align="center">
+    <div>
       <tr   valign="middle">
-        <td height="70" colspan="7"><input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; new_game()" value="New game" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <td height="70" colspan="7"><input name="button2" type="button" class="button" value="Iniciar" onclick=" new_game()">
         &nbsp;
-        <input name="button2" type="button" class="button" onClick="if (!window.__cfRLUnblockHandlers) return false; javascript:window.close()" value="Close window" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <input name="button2" type="button" class="button" value="Fechar" onclick=" javascript:window.close()">
         
-        <td height="70"><input name="button2" type="button" class="button2" onClick="if (!window.__cfRLUnblockHandlers) return false; computer_draught()" value="PC move" data-cf-modified-e42e2f6d8dfdde5897887a0b-="">
+        <td height="70"><input name="button2" type="button" class="button2" value="Vs PC" onclick="computer_draught()">
         </td>
       </tr>
-
-    </div>
-  </p>
-</table>
-</form>
+   </div>
+  </table>
+  </div>
+  <script src="js/script.js"></script>
+</body>
 </html>
